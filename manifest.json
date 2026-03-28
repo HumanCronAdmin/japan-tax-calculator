@@ -1,0 +1,17 @@
+{
+  "name": "Japan Tax Calculator",
+  "short_name": "JapanTax",
+  "description": "Calculate your take-home pay in Japan. Free tax calculator for foreigners.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#C41E3A",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -5,10 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan</title>
 <meta name="description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
+<meta name="keywords" content="japan tax calculator, tax estimator japan, foreigner tax japan, income tax japan, resident tax japan, social insurance japan, take-home pay japan, salary calculator japan, tax rate japan, freelancer tax japan">
+<link rel="canonical" href="https://humancronadmin.github.io/japan-tax-calculator/">
 <meta property="og:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan">
 <meta property="og:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
+<meta property="og:url" content="https://humancronadmin.github.io/japan-tax-calculator/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan">
+<meta name="twitter:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#C41E3A">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Japan Tax Calculator",
+  "description": "Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.",
+  "url": "https://humancronadmin.github.io/japan-tax-calculator/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "All",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "inLanguage": "en"
+}
+</script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -286,6 +311,14 @@ footer {
   .pie-chart { width: 130px; height: 130px; }
 }
 </style>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H1N5PR9Y0H');
+</script>
 </head>
 <body>
 
@@ -586,6 +619,11 @@ function drawPie(takeHome, si, incomeTax, residentTax) {
       '<span>' + slices[j].label + ' (' + pctVal + '%)</span>';
     legend.appendChild(item);
   }
+}
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
 }
 </script>
 
