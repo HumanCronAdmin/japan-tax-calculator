@@ -1,635 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="impact-site-verification" value="9536cab7-fa07-456d-bf6c-87155bd594f2">
-<link rel="sitemap" type="application/xml" href="/japan-tax-calculator/sitemap.xml">
-<title>Japan Tax Calculator — Free Estimator</title>
-<meta name="description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
-<meta name="keywords" content="japan tax calculator, tax estimator japan, foreigner tax japan, income tax japan, resident tax japan, social insurance japan, take-home pay japan, salary calculator japan, tax rate japan, freelancer tax japan">
-<link rel="canonical" href="https://humancronadmin.github.io/japan-tax-calculator/">
-<meta property="og:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan">
-<meta property="og:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://humancronadmin.github.io/japan-tax-calculator/">
-<meta property="og:image" content="https://humancronadmin.github.io/japan-tax-calculator/images/og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://humancronadmin.github.io/japan-tax-calculator/images/og-image.png">
-<meta name="twitter:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan">
-<meta name="twitter:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#C41E3A">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="impact-site-verification" value="9536cab7-fa07-456d-bf6c-87155bd594f2"><link rel="sitemap" type="application/xml" href="/japan-tax-calculator/sitemap.xml"><title>Japan Tax Calculator — Free Estimator</title><meta name="description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.">
+<meta name="keywords" content="japan tax calculator, tax estimator japan, foreigner tax japan, income tax japan, resident tax japan, social insurance japan, take-home pay japan, salary calculator japan, tax rate japan, freelancer tax japan"><link rel="canonical" href="https://humancronadmin.github.io/japan-tax-calculator/"><meta property="og:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan">
+<meta property="og:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English."><meta property="og:type" content="website"><meta property="og:url" content="https://humancronadmin.github.io/japan-tax-calculator/"><meta property="og:image" content="https://humancronadmin.github.io/japan-tax-calculator/images/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://humancronadmin.github.io/japan-tax-calculator/images/og-image.png">
+<meta name="twitter:title" content="Japan Tax Calculator — Free Tax Estimator for Foreigners in Japan"><meta name="twitter:description" content="Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English."><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#C41E3A">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Japan Tax Calculator",
-  "description": "Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.",
-  "url": "https://humancronadmin.github.io/japan-tax-calculator/",
-  "applicationCategory": "FinanceApplication",
-  "operatingSystem": "All",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "inLanguage": "en"
-}
+{"@context": "https://schema.org","@type": "WebApplication","name": "Japan Tax Calculator","description": "Calculate your take-home pay in Japan. Free tax calculator for foreigners — income tax, resident tax, social insurance explained in English.","url": "https://humancronadmin.github.io/japan-tax-calculator/","applicationCategory": "FinanceApplication","operatingSystem": "All","offers": {"@type": "Offer","price": "0","priceCurrency": "USD"},"inLanguage": "en"}
 </script>
-<style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: #f5f5f5;
-  color: #333;
-  line-height: 1.6;
-  min-height: 100vh;
-}
-
-.ad-slot {
-  width: 100%;
-  max-width: 728px;
-  min-height: 90px;
-  margin: 0 auto;
-  background: #fafafa;
-  border: 1px dashed #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ccc;
-  font-size: 0.8rem;
-}
-
-header {
-  background: #fff;
-  border-bottom: 3px solid #C41E3A;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 1.6rem;
-  color: #C41E3A;
-  margin-bottom: 0.25rem;
-}
-
-header p {
-  color: #666;
-  font-size: 0.9rem;
-}
-
-.container {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 1.5rem;
-  margin-bottom: 1.25rem;
-}
-
-.card h2 {
-  font-size: 1.15rem;
-  color: #C41E3A;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 0.5rem;
-}
-
-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-  font-size: 0.9rem;
-  color: #444;
-}
-
-label .hint {
-  font-weight: 400;
-  color: #888;
-  font-size: 0.8rem;
-}
-
-input[type="number"], select {
-  width: 100%;
-  padding: 0.7rem 0.9rem;
-  border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-family: inherit;
-  margin-bottom: 1rem;
-  transition: border-color 0.2s;
-  -webkit-appearance: none;
-}
-
-input[type="number"]:focus, select:focus {
-  outline: none;
-  border-color: #C41E3A;
-}
-
-input[type="number"]::placeholder {
-  color: #bbb;
-}
-
-.btn-calculate {
-  width: 100%;
-  padding: 0.85rem;
-  background: #C41E3A;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.05rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.2s;
-  font-family: inherit;
-}
-
-.btn-calculate:hover {
-  background: #a5182f;
-}
-
-.btn-calculate:active {
-  background: #8b1428;
-}
-
-/* Results */
-#results {
-  display: none;
-}
-
-.result-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.65rem 0;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.result-row:last-child {
-  border-bottom: none;
-}
-
-.result-row .label {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.result-row .value {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.result-row.highlight {
-  background: #fdf2f4;
-  margin: 0 -1.5rem;
-  padding: 0.8rem 1.5rem;
-  border-radius: 8px;
-  border-bottom: none;
-}
-
-.result-row.highlight .label {
-  color: #C41E3A;
-  font-weight: 700;
-  font-size: 1rem;
-}
-
-.result-row.highlight .value {
-  color: #C41E3A;
-  font-size: 1.15rem;
-}
-
-/* Pie Chart */
-.chart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-
-.pie-chart {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  position: relative;
-  flex-shrink: 0;
-}
-
-.chart-legend {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-}
-
-.legend-color {
-  width: 14px;
-  height: 14px;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
-
-/* Professional Help */
-.help-section {
-  text-align: center;
-}
-
-.help-section h2 {
-  text-align: left;
-}
-
-.help-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 0.5rem;
-}
-
-.help-link {
-  display: block;
-  padding: 0.75rem 1rem;
-  background: #fdf2f4;
-  border: 1px solid #f0d0d5;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #C41E3A;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: background 0.2s;
-}
-
-.help-link:hover {
-  background: #fbe4e8;
-}
-
-.help-link span {
-  display: block;
-  font-weight: 400;
-  color: #888;
-  font-size: 0.8rem;
-  margin-top: 0.2rem;
-}
-
-/* Disclaimer & Footer */
-.disclaimer {
-  background: #fff8e1;
-  border: 1px solid #ffe082;
-  border-radius: 8px;
-  padding: 1rem;
-  font-size: 0.8rem;
-  color: #795548;
-  margin-bottom: 1.25rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  color: #aaa;
-  font-size: 0.75rem;
-}
-
-/* Responsive */
-@media (max-width: 480px) {
-  header h1 { font-size: 1.3rem; }
-  .card { padding: 1.1rem; }
-  .result-row.highlight {
-    margin: 0 -1.1rem;
-    padding: 0.7rem 1.1rem;
-  }
-  .pie-chart { width: 130px; height: 130px; }
-}
-</style>
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-H1N5PR9Y0H');
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-H1N5PR9Y0H');
 </script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#333;line-height:1.6;min-height:100vh;}
+.ad-slot{width:100%;max-width:728px;min-height:90px;margin:0 auto;background:#fafafa;border:1px dashed #ddd;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:0.8rem;}
+header{background:#fff;border-bottom:3px solid #C41E3A;padding:1rem 0;text-align:center;}
+header h1{font-size:1.6rem;color:#C41E3A;margin-bottom:0.25rem;}
+header p{color:#666;font-size:0.9rem;}
+.container{max-width:680px;margin:0 auto;padding:1rem;}
+.card{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);padding:1.5rem;margin-bottom:1.25rem;}
+.card h2{font-size:1.15rem;color:#C41E3A;margin-bottom:1rem;border-bottom:2px solid #f0f0f0;padding-bottom:0.5rem;}
+label{display:block;font-weight:600;margin-bottom:0.3rem;font-size:0.9rem;color:#444;}
+label .hint{font-weight:400;color:#888;font-size:0.8rem;}
+input[type="number"],select{width:100%;padding:0.7rem 0.9rem;border:2px solid #e0e0e0;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:1rem;transition:border-color 0.2s;-webkit-appearance:none;}
+input[type="number"]:focus,select:focus{outline:none;border-color:#C41E3A;}
+input[type="number"]::placeholder{color:#bbb;}
+.btn-calculate{width:100%;padding:0.85rem;background:#C41E3A;color:#fff;border:none;border-radius:8px;font-size:1.05rem;font-weight:700;cursor:pointer;transition:background 0.2s;font-family:inherit;}
+.btn-calculate:hover{background:#a5182f;}
+.btn-calculate:active{background:#8b1428;}
+#results{display:none;}
+.result-row{display:flex;justify-content:space-between;align-items:center;padding:0.65rem 0;border-bottom:1px solid #f0f0f0;}
+.result-row:last-child{border-bottom:none;}
+.result-row .label{font-size:0.9rem;color:#555;}
+.result-row .value{font-size:1rem;font-weight:700;color:#333;}
+.result-row.highlight{background:#fdf2f4;margin:0 -1.5rem;padding:0.8rem 1.5rem;border-radius:8px;border-bottom:none;}
+.result-row.highlight .label{color:#C41E3A;font-weight:700;font-size:1rem;}
+.result-row.highlight .value{color:#C41E3A;font-size:1.15rem;}
+.chart-container{display:flex;justify-content:center;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:0.5rem;}
+.pie-chart{width:160px;height:160px;border-radius:50%;position:relative;flex-shrink:0;}
+.chart-legend{display:flex;flex-direction:column;gap:0.5rem;}
+.legend-item{display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;}
+.legend-color{width:14px;height:14px;border-radius:3px;flex-shrink:0;}
+.help-section{text-align:center;}
+.help-section h2{text-align:left;}
+.help-links{display:flex;flex-direction:column;gap:0.75rem;margin-top:0.5rem;}
+.help-link{display:block;padding:0.75rem 1rem;background:#fdf2f4;border:1px solid #f0d0d5;border-radius:8px;text-decoration:none;color:#C41E3A;font-weight:600;font-size:0.9rem;transition:background 0.2s;}
+.help-link:hover{background:#fbe4e8;}
+.help-link span{display:block;font-weight:400;color:#888;font-size:0.8rem;margin-top:0.2rem;}
+.disclaimer{background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:1rem;font-size:0.8rem;color:#795548;margin-bottom:1.25rem;}
+footer{text-align:center;padding:1rem;color:#aaa;font-size:0.75rem;}
+@media (max-width:480px){header h1{font-size:1.3rem;}
+.card{padding:1.1rem;}
+.result-row.highlight{margin:0 -1.1rem;padding:0.7rem 1.1rem;}
+.pie-chart{width:130px;height:130px;}
+}
+button,a.btn,.btn,input[type=submit]{min-height:44px}</style>
 </head>
 <body>
-
-<header>
-  <h1>Japan Tax Calculator</h1>
-  <p>Estimate your take-home pay in Japan — in English, in seconds</p>
-</header>
-
-<!-- Ad Slot: Top -->
-<div class="container" style="margin-top:1rem;">
-  <div class="ad-slot" id="ad-top"><!-- AdSense --></div>
-</div>
-
-<div class="container">
-
-  <!-- Input Form -->
-  <div class="card">
-    <h2>Your Information</h2>
-    <form id="taxForm" onsubmit="return false;">
-
-      <label for="salary">Annual Gross Salary (¥) <span class="hint">— before tax</span></label>
-      <input type="number" id="salary" placeholder="e.g. 5000000" min="0" step="1" required>
-
-      <label for="age">Age</label>
-      <select id="age">
-        <option value="under40">Under 40</option>
-        <option value="40to64">40 – 64</option>
-        <option value="65to74">65 – 74</option>
-        <option value="75plus">75+</option>
-      </select>
-
-      <label for="dependents">Number of Dependents</label>
-      <input type="number" id="dependents" value="0" min="0" max="5">
-
-      <label for="empType">Employment Type</label>
-      <select id="empType">
-        <option value="employee">Employee (Company Worker)</option>
-        <option value="self">Self-employed (Freelancer)</option>
-      </select>
-
-      <button type="button" class="btn-calculate" onclick="calculate()">Calculate</button>
-    </form>
-  </div>
-
-  <!-- Results -->
-  <div id="results">
-
-    <div class="card">
-      <h2>Tax Breakdown</h2>
-      <div class="result-row">
-        <span class="label">Gross Annual Salary</span>
-        <span class="value" id="r-gross"></span>
-      </div>
-      <div class="result-row">
-        <span class="label">Social Insurance Total</span>
-        <span class="value" id="r-si"></span>
-      </div>
-      <div class="result-row">
-        <span class="label">Income Tax</span>
-        <span class="value" id="r-income-tax"></span>
-      </div>
-      <div class="result-row">
-        <span class="label">Resident Tax</span>
-        <span class="value" id="r-resident-tax"></span>
-      </div>
-      <div class="result-row">
-        <span class="label">Total Deductions</span>
-        <span class="value" id="r-total-ded"></span>
-      </div>
-      <div class="result-row highlight">
-        <span class="label">Annual Take-Home Pay</span>
-        <span class="value" id="r-annual"></span>
-      </div>
-      <div class="result-row highlight">
-        <span class="label">Monthly Take-Home Pay</span>
-        <span class="value" id="r-monthly"></span>
-      </div>
-      <div class="result-row">
-        <span class="label">Effective Tax Rate</span>
-        <span class="value" id="r-effective"></span>
-      </div>
-    </div>
-
-    <!-- Pie Chart -->
-    <div class="card">
-      <h2>Where Your Money Goes</h2>
-      <div class="chart-container">
-        <div class="pie-chart" id="pie"></div>
-        <div class="chart-legend" id="legend"></div>
-      </div>
-    </div>
-
-    <!-- Professional Help -->
-    <div class="card help-section">
-      <h2>Need Professional Help?</h2>
-      <div class="help-links">
-        <a class="help-link" href="https://search-advisors.freee.co.jp/" target="_blank" rel="noopener">
-          freee Tax Accountant Search
-          <span>Find an English-speaking tax accountant in Japan</span>
-        </a>
-        <a class="help-link" href="https://www.zeiri4.com/" target="_blank" rel="noopener">
-          Zeiri4.com (税理士ドットコム)
-          <span>Japan's largest tax accountant matching service</span>
-        </a>
-        <a class="help-link" href="https://www.nta.go.jp/english/index.htm" target="_blank" rel="noopener">
-          National Tax Agency (English)
-          <span>Official tax information from the Japanese government</span>
-        </a>
-      </div>
-    </div>
-
-  </div><!-- /results -->
-
-  <!-- Disclaimer -->
-  <div class="disclaimer">
-    <strong>Disclaimer:</strong> This is an estimate only. Actual amounts may vary depending on your municipality, specific insurance association, and personal circumstances. Consult a tax professional for exact figures.
-  </div>
-
-  <!-- Ad Slot: Bottom -->
-  <div class="ad-slot" id="ad-bottom"><!-- AdSense --></div>
-
-</div>
-
-<footer>
-  &copy; 2026 Japan Tax Calculator. Built for foreigners working in Japan.
-</footer>
-
+<header><h1>Japan Tax Calculator</h1><p>Estimate your take-home pay in Japan — in English, in seconds</p></header><!-- Ad Slot: Top --><div class="container" style="margin-top:1rem;"><div class="ad-slot" id="ad-top"><!-- AdSense --></div></div><div class="container"><!-- Input Form -->
+<div class="card"><h2>Your Information</h2><form id="taxForm" onsubmit="return false;"><label for="salary">Annual Gross Salary (¥) <span class="hint">— before tax</span></label><input type="number" id="salary" placeholder="e.g. 5000000" min="0" step="1" required><label for="age">Age</label><select id="age"><option value="under40">Under 40</option><option value="40to64">40 – 64</option><option value="65to74">65 – 74</option><option value="75plus">75+</option></select><label for="dependents">Number of Dependents</label><input type="number" id="dependents" value="0" min="0" max="5">
+<label for="empType">Employment Type</label><select id="empType"><option value="employee">Employee (Company Worker)</option><option value="self">Self-employed (Freelancer)</option></select><button type="button" class="btn-calculate" onclick="calculate()">Calculate</button></form></div>
+<!-- Results --><div id="results"><div class="card"><h2>Tax Breakdown</h2><div class="result-row"><span class="label">Gross Annual Salary</span><span class="value" id="r-gross"></span></div><div class="result-row"><span class="label">Social Insurance Total</span><span class="value" id="r-si"></span>
+</div><div class="result-row"><span class="label">Income Tax</span><span class="value" id="r-income-tax"></span></div><div class="result-row"><span class="label">Resident Tax</span><span class="value" id="r-resident-tax"></span></div><div class="result-row"><span class="label">Total Deductions</span><span class="value" id="r-total-ded"></span></div><div class="result-row highlight"><span class="label">Annual Take-Home Pay</span><span class="value" id="r-annual"></span></div><div class="result-row highlight">
+<span class="label">Monthly Take-Home Pay</span><span class="value" id="r-monthly"></span></div><div class="result-row"><span class="label">Effective Tax Rate</span><span class="value" id="r-effective"></span></div></div><!-- Pie Chart --><div class="card"><h2>Where Your Money Goes</h2><div class="chart-container"></div></div><!-- Professional Help --><div class="card help-section"><h2>Need Professional Help?</h2><div class="help-links">
+<a class="help-link" href="https://search-advisors.freee.co.jp/" target="_blank" rel="noopener">freee Tax Accountant Search<span>Find an English-speaking tax accountant in Japan</span></a><a class="help-link" href="https://www.nta.go.jp/english/index.htm" target="_blank" rel="noopener">National Tax Agency (English)<span>Official tax information from the Japanese government</span></a></div></div></div><!-- /results -->
+<!-- Disclaimer --><div class="disclaimer"><strong>Disclaimer:</strong> This is an estimate only. Actual amounts may vary depending on your municipality, specific insurance association, and personal circumstances. Consult a tax professional for exact figures.</div><!-- Ad Slot: Bottom -->
+<div class="ad-slot" id="ad-bottom"><!-- AdSense --></div></div><footer>&copy; 2026 Japan Tax Calculator. Built for foreigners working in Japan.</footer>
 <script>
-function formatYen(n) {
-  return '¥' + Math.round(n).toLocaleString('en-US');
-}
-
-function calcEmploymentDeduction(salary) {
-  if (salary <= 1625000) return 550000;
-  if (salary <= 1800000) return salary * 0.4 - 100000;
-  if (salary <= 3600000) return salary * 0.3 + 80000;
-  if (salary <= 6600000) return salary * 0.2 + 440000;
-  if (salary <= 8500000) return salary * 0.1 + 1100000;
-  return 1950000;
-}
-
-function calcSocialInsurance(salary, age, empType) {
-  if (empType === 'self') {
-    var kokuhoRate = 0.10;
-    var kokumin_nenkin = 200000;
-    return salary * kokuhoRate + kokumin_nenkin;
-  }
-
-  // Employee
-  var health = salary * 0.05;
-  var kaigo = 0;
-  if (age === '40to64' || age === '65to74') {
-    kaigo = salary * 0.008;
-  }
-
-  // 厚生年金 — cap at standard monthly remuneration of 650,000
-  var monthlyPay = salary / 12;
-  var pensionBase = Math.min(monthlyPay, 650000) * 12;
-  var pension = pensionBase * 0.0915;
-
-  var employment = salary * 0.006;
-
-  return health + kaigo + pension + employment;
-}
-
-function calcIncomeTax(taxableIncome) {
-  // Truncate to nearest 1000
-  taxableIncome = Math.floor(taxableIncome / 1000) * 1000;
-  if (taxableIncome <= 0) return 0;
-
-  var tax;
-  if (taxableIncome <= 1950000) {
-    tax = taxableIncome * 0.05;
-  } else if (taxableIncome <= 3300000) {
-    tax = taxableIncome * 0.10 - 97500;
-  } else if (taxableIncome <= 6950000) {
-    tax = taxableIncome * 0.20 - 427500;
-  } else if (taxableIncome <= 9000000) {
-    tax = taxableIncome * 0.23 - 636000;
-  } else if (taxableIncome <= 18000000) {
-    tax = taxableIncome * 0.33 - 1536000;
-  } else if (taxableIncome <= 40000000) {
-    tax = taxableIncome * 0.40 - 2796000;
-  } else {
-    tax = taxableIncome * 0.45 - 4796000;
-  }
-
-  // 復興特別所得税
-  tax = tax * 1.021;
-  return Math.max(0, tax);
-}
-
-function calculate() {
-  var salaryInput = document.getElementById('salary');
-  var salary = parseFloat(salaryInput.value);
-  if (isNaN(salary) || salary < 0) {
-    salaryInput.focus();
-    return;
-  }
-
-  var age = document.getElementById('age').value;
-  var dependents = parseInt(document.getElementById('dependents').value) || 0;
-  if (dependents < 0) dependents = 0;
-  if (dependents > 5) dependents = 5;
-  var empType = document.getElementById('empType').value;
-
-  // A. Employment Income Deduction (Employee only)
-  var incomeDeduction = 0;
-  var earnedIncome = salary;
-  if (empType === 'employee') {
-    incomeDeduction = calcEmploymentDeduction(salary);
-    earnedIncome = salary - incomeDeduction;
-    if (earnedIncome < 0) earnedIncome = 0;
-  }
-
-  // C. Social Insurance
-  var socialInsurance = calcSocialInsurance(salary, age, empType);
-
-  // B. Income Deductions
-  var basicDeduction = 480000;  // 基礎控除 (income <= 24,000,000)
-  if (earnedIncome > 24000000) basicDeduction = 0;
-  else if (earnedIncome > 24500000) basicDeduction = 0;
-
-  var dependentDeduction = 380000 * dependents;
-  var siDeduction = socialInsurance; // 社会保険料控除
-
-  var totalDeductions = basicDeduction + dependentDeduction + siDeduction;
-
-  // D. Income Tax
-  var taxableIncome = earnedIncome - totalDeductions;
-  if (taxableIncome < 0) taxableIncome = 0;
-  var incomeTax = calcIncomeTax(taxableIncome);
-
-  // E. Resident Tax
-  var residentTaxableIncome = earnedIncome - totalDeductions;
-  if (residentTaxableIncome < 0) residentTaxableIncome = 0;
-  residentTaxableIncome = Math.floor(residentTaxableIncome / 1000) * 1000;
-  var residentTax = residentTaxableIncome * 0.10 + 5000;
-  if (residentTaxableIncome <= 0) residentTax = 0;
-
-  // F. Take-Home
-  var totalDed = socialInsurance + incomeTax + residentTax;
-  var takeHomeAnnual = salary - totalDed;
-  var takeHomeMonthly = takeHomeAnnual / 12;
-  var effectiveRate = salary > 0 ? (totalDed / salary * 100) : 0;
-
-  // Display results
-  document.getElementById('r-gross').textContent = formatYen(salary);
-  document.getElementById('r-si').textContent = formatYen(socialInsurance);
-  document.getElementById('r-income-tax').textContent = formatYen(incomeTax);
-  document.getElementById('r-resident-tax').textContent = formatYen(residentTax);
-  document.getElementById('r-total-ded').textContent = formatYen(totalDed);
-  document.getElementById('r-annual').textContent = formatYen(takeHomeAnnual);
-  document.getElementById('r-monthly').textContent = formatYen(takeHomeMonthly);
-  document.getElementById('r-effective').textContent = effectiveRate.toFixed(1) + '%';
-
-  document.getElementById('results').style.display = 'block';
-
-  // Pie chart
-  drawPie(takeHomeAnnual, socialInsurance, incomeTax, residentTax);
-
-  // Scroll to results
-  document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function drawPie(takeHome, si, incomeTax, residentTax) {
-  var total = takeHome + si + incomeTax + residentTax;
-  if (total <= 0) return;
-
-  var slices = [
-    { label: 'Take-Home Pay', value: takeHome, color: '#4CAF50' },
-    { label: 'Social Insurance', value: si, color: '#2196F3' },
-    { label: 'Income Tax', value: incomeTax, color: '#C41E3A' },
-    { label: 'Resident Tax', value: residentTax, color: '#FF9800' }
-  ];
-
-  // Build conic-gradient
-  var gradientParts = [];
-  var cumulative = 0;
-  for (var i = 0; i < slices.length; i++) {
-    var pct = (slices[i].value / total) * 100;
-    var start = cumulative;
-    cumulative += pct;
-    gradientParts.push(slices[i].color + ' ' + start.toFixed(2) + '% ' + cumulative.toFixed(2) + '%');
-  }
-
-  var pie = document.getElementById('pie');
-  pie.style.background = 'conic-gradient(' + gradientParts.join(', ') + ')';
-
-  // Legend
-  var legend = document.getElementById('legend');
-  legend.innerHTML = '';
-  for (var j = 0; j < slices.length; j++) {
-    var pctVal = ((slices[j].value / total) * 100).toFixed(1);
-    var item = document.createElement('div');
-    item.className = 'legend-item';
-    item.innerHTML = '<div class="legend-color" style="background:' + slices[j].color + '"></div>' +
-      '<span>' + slices[j].label + ' (' + pctVal + '%)</span>';
-    legend.appendChild(item);
-  }
-}
+function formatYen(n) {return '¥' + Math.round(n).toLocaleString('en-US');}function calcEmploymentDeduction(salary) {if (salary <= 1625000) return 550000;if (salary <= 1800000) return salary * 0.4 - 100000;if (salary <= 3600000) return salary * 0.3 + 80000;if (salary <= 6600000) return salary * 0.2 + 440000;if (salary <= 8500000) return salary * 0.1 + 1100000;return 1950000;}function calcSocialInsurance(salary, age, empType) {if (empType === 'self') {var kokuhoRate = 0.10;var kokumin_nenkin = 200000;return salary * kokuhoRate + kokumin_nenkin;}// Employeevar health = salary * 0.05;
+var kaigo = 0;if (age === '40to64' || age === '65to74') {kaigo = salary * 0.008;}// 厚生年金 — cap at standard monthly remuneration of 650,000var monthlyPay = salary / 12;var pensionBase = Math.min(monthlyPay, 650000) * 12;var pension = pensionBase * 0.0915;var employment = salary * 0.006;return health + kaigo + pension + employment;}function calcIncomeTax(taxableIncome) {// Truncate to nearest 1000taxableIncome = Math.floor(taxableIncome / 1000) * 1000;if (taxableIncome <= 0) return 0;var tax;if (taxableIncome <= 1950000) {tax = taxableIncome * 0.05;} else if (taxableIncome <= 3300000) {
+tax = taxableIncome * 0.10 - 97500;} else if (taxableIncome <= 6950000) {tax = taxableIncome * 0.20 - 427500;} else if (taxableIncome <= 9000000) {tax = taxableIncome * 0.23 - 636000;} else if (taxableIncome <= 18000000) {tax = taxableIncome * 0.33 - 1536000;} else if (taxableIncome <= 40000000) {tax = taxableIncome * 0.40 - 2796000;} else {tax = taxableIncome * 0.45 - 4796000;}// 復興特別所得税tax = tax * 1.021;return Math.max(0, tax);}function calculate() {var salaryInput = document.getElementById('salary');var salary = parseFloat(salaryInput.value);if (isNaN(salary) || salary < 0) {
+salaryInput.focus();return;}var age = document.getElementById('age').value;var dependents = parseInt(document.getElementById('dependents').value) || 0;if (dependents < 0) dependents = 0;if (dependents > 5) dependents = 5;var empType = document.getElementById('empType').value;// A. Employment Income Deduction (Employee only)var incomeDeduction = 0;var earnedIncome = salary;if (empType === 'employee') {incomeDeduction = calcEmploymentDeduction(salary);earnedIncome = salary - incomeDeduction;if (earnedIncome < 0) earnedIncome = 0;}// C. Social Insurance
+var socialInsurance = calcSocialInsurance(salary, age, empType);// B. Income Deductionsvar basicDeduction = 480000;  // 基礎控除 (income <= 24,000,000)if (earnedIncome > 24000000) basicDeduction = 0;else if (earnedIncome > 24500000) basicDeduction = 0;var dependentDeduction = 380000 * dependents;var siDeduction = socialInsurance; // 社会保険料控除var totalDeductions = basicDeduction + dependentDeduction + siDeduction;// D. Income Taxvar taxableIncome = earnedIncome - totalDeductions;if (taxableIncome < 0) taxableIncome = 0;var incomeTax = calcIncomeTax(taxableIncome);// E. Resident Tax
+var residentTaxableIncome = earnedIncome - totalDeductions;if (residentTaxableIncome < 0) residentTaxableIncome = 0;residentTaxableIncome = Math.floor(residentTaxableIncome / 1000) * 1000;var residentTax = residentTaxableIncome * 0.10 + 5000;if (residentTaxableIncome <= 0) residentTax = 0;// F. Take-Homevar totalDed = socialInsurance + incomeTax + residentTax;var takeHomeAnnual = salary - totalDed;var takeHomeMonthly = takeHomeAnnual / 12;var effectiveRate = salary > 0 ? (totalDed / salary * 100) : 0;// Display resultsdocument.getElementById('r-gross').textContent = formatYen(salary);
+document.getElementById('r-si').textContent = formatYen(socialInsurance);document.getElementById('r-income-tax').textContent = formatYen(incomeTax);document.getElementById('r-resident-tax').textContent = formatYen(residentTax);document.getElementById('r-total-ded').textContent = formatYen(totalDed);document.getElementById('r-annual').textContent = formatYen(takeHomeAnnual);document.getElementById('r-monthly').textContent = formatYen(takeHomeMonthly);document.getElementById('r-effective').textContent = effectiveRate.toFixed(1) + '%';document.getElementById('results').style.display = 'block';
+// Pie chartdrawPie(takeHomeAnnual, socialInsurance, incomeTax, residentTax);// Scroll to resultsdocument.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });}function drawPie(takeHome, si, incomeTax, residentTax) {var total = takeHome + si + incomeTax + residentTax;if (total <= 0) return;var slices = [{ label: 'Take-Home Pay', value: takeHome, color: '#4CAF50' },{ label: 'Social Insurance', value: si, color: '#2196F3' },{ label: 'Income Tax', value: incomeTax, color: '#C41E3A' },{ label: 'Resident Tax', value: residentTax, color: '#FF9800' }];
+// Build conic-gradientvar gradientParts = [];var cumulative = 0;for (var i = 0; i < slices.length; i++) {var pct = (slices[i].value / total) * 100;var start = cumulative;cumulative += pct;gradientParts.push(slices[i].color + ' ' + start.toFixed(2) + '% ' + cumulative.toFixed(2) + '%');}var pie = document.getElementById('pie');pie.style.background = 'conic-gradient(' + gradientParts.join(', ') + ')';// Legendvar legend = document.getElementById('legend');legend.innerHTML = '';for (var j = 0; j < slices.length; j++) {var pctVal = ((slices[j].value / total) * 100).toFixed(1);
+var item = document.createElement('div');item.className = 'legend-item';item.innerHTML = '' +'<span>' + slices[j].label + ' (' + pctVal + '%)</span>';legend.appendChild(item);}}
 </script>
 <script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js');
-}
+if ('serviceWorker' in navigator) {navigator.serviceWorker.register('sw.js');}
 </script>
-
 </body>
 </html>
