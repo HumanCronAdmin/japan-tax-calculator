@@ -1,0 +1,53 @@
+# Japan Tax Filing Guide 2026 — PDF目次詳細
+
+## Part 1: Do You Need to File?（3ページ）
+フローチャート（YES/NO分岐で判定）:
+- 会社員1箇所のみ → NO（年末調整で完了）
+- YES条件: 副業>20万 / 2箇所勤務 / 年収>2000万 / 医療費>10万 / ふるさと6自治体+ / 住宅ローン初年度 / 年途中入出国
+- 無申告リスク: 延滞税14.6%、無申告加算税15-20%
+- Source: NTA No.12011
+
+## Part 2: What Changed in 2026（2ページ）
+- 税制改正サマリー / 基礎控除・給与所得控除の変更点
+- Source: 国税庁「令和8年分所得税の改正」
+
+## Part 3: Filing Step by Step（8ページ）
+3.1 必要書類: 源泉徴収票 / マイナンバー / 控除証明書 / 銀行口座
+3.2 e-Tax登録: マイナカード方式 vs ID/パスワード方式（スクショ付き）
+3.3 申告書記入: 確定申告書A各欄の英語解説（スクショ+矢印）
+3.4 提出方法: e-Tax / 郵送 / 税務署窓口
+3.5 還付金: e-Tax約3週間 / 紙1-2ヶ月、銀行振込 or ゆうちょ
+
+## Part 4: Deductions You Might Be Missing（5ページ）
+4.1 医療費控除 — 10万円ルール / セルフメディケーション / Source: NTA No.12008
+4.2 ふるさと納税 — ワンストップ特例 vs 確定申告 / 上限額目安表
+4.3 iDeCo — 全額所得控除 / 年末調整 vs 確定申告の分岐
+4.4 生命保険料控除 — 一般/介護/個人年金3区分 / 新旧契約の上限
+4.5 地震保険料控除
+4.6 扶養控除 — 海外家族も対象（送金証明書必要）/ 38万円/人
+
+## Part 5: Case Studies（4ページ）
+- A: 会社員+ふるさと3自治体+医療費15万 → 還付額ステップ計算
+- B: 会社員+副業30万（20万ルール超過）→ 雑所得申告
+- C: 年途中転職（源泉徴収票2枚）→ 合算方法
+- D: 年途中来日 → 非居住者期間按分
+
+## Part 6: Common Mistakes（3ページ）
+6.1 収入(shuunyuu) vs 所得(shotoku) — 図解
+6.2 源泉徴収票の読み方 — 英語ラベル重ね解説図
+6.3 e-Taxエラー — カード読取不可/推奨ブラウザ/電子証明書期限
+
+## Part 7: Leaving Japan（2ページ）
+7.1 納税管理人の指定
+7.2 年金一括脱退（20%源泉税/還付請求）
+7.3 未払い住民税処理
+7.4 出国前チェックリスト
+
+## Appendix A: 日英税務用語集（40語）
+確定申告=Final Tax Return / 源泉徴収票=Withholding Tax Statement / 所得控除=Income Deduction / 住民税=Resident Tax / 年末調整=Year-End Adjustment / 還付=Tax Refund / 延滞税=Delinquent Tax / 青色申告=Blue Return / 税務署=Tax Office 等
+
+## Appendix B: Tax Calendar
+1月:源泉徴収票受取 / 2/16-3/15:確定申告 / 3月:還付処理 / 6月:住民税通知 / 11-12月:年末調整 / 12月:ふるさと締切
+
+## Appendix C: Useful Links
+NTA英語ページ / e-Tax / japan-tax-calculator / 税理士検索（freee, Zeiri4）
