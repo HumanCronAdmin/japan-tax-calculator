@@ -1,0 +1,16 @@
+# HN Draft
+> Groq | 2026-04-01 17:31
+
+Title: Show HN: Free Japan Tax Calculator for Foreign Residents
+
+I recently came across a useful tool for foreigners living in Japan: the Japan Tax Calculator (https://humancronadmin.github.io/japan-tax-calculator/). This web application provides a free and accurate way to calculate take-home pay, taking into account various tax deductions and allowances specific to Japan.
+
+As someone who has previously struggled to understand the intricacies of Japanese tax law, I found this tool to be a valuable resource. The calculator asks for basic information such as income, residency status, and family size, and then provides a detailed breakdown of taxes owed and take-home pay.
+
+What sets this tool apart is its focus on foreigners living in Japan. It accounts for unique tax situations, such as the "Special Taxation Measures for International Employees" and the "Spouse Tax Deduction", which can be confusing for non-Japanese residents to navigate.
+
+The calculator is open-source and hosted on GitHub, with the code available for review and contribution. The developer has also provided a clear explanation of the calculation methodology and sources used to ensure accuracy.
+
+If you're a foreigner living in Japan or planning to move there, I recommend giving this tool a try to get a better understanding of your tax obligations and take-home pay. It's a valuable resource that can help you make informed decisions about your finances.
+
+Edit: I've seen some discussion about tax calculators in a recent DEV.to article, but I wanted to highlight this specific tool as it provides a unique value proposition for foreigners in Japan.

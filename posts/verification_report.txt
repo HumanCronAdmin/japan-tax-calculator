@@ -1,0 +1,71 @@
+{
+  "verified_at": "2026-04-01 17:33",
+  "total_files": 7,
+  "passed": 4,
+  "total_issues": 3,
+  "total_warnings": 0,
+  "results": [
+    {
+      "file": "devto_draft.txt",
+      "platform": "devto",
+      "char_count": 3306,
+      "issues": [],
+      "warnings": [],
+      "pass": true
+    },
+    {
+      "file": "discord_draft.txt",
+      "platform": "discord",
+      "char_count": 216,
+      "issues": [],
+      "warnings": [],
+      "pass": true
+    },
+    {
+      "file": "hn_draft.txt",
+      "platform": "hn",
+      "char_count": 1677,
+      "issues": [
+        "禁止語検出: 'based'"
+      ],
+      "warnings": [],
+      "pass": false
+    },
+    {
+      "file": "ih_draft.txt",
+      "platform": "ih",
+      "char_count": 1568,
+      "issues": [
+        "リンク切れ (404): https://humancronadmin.github.io/japan-tax-calculator/**"
+      ],
+      "warnings": [],
+      "pass": false
+    },
+    {
+      "file": "note_draft.txt",
+      "platform": "note",
+      "char_count": 785,
+      "issues": [
+        "リンク確認失敗: https://humancronadmin.github.io/japan-tax-calculator/で公開されている。 ('ascii' codec can't encode characters in position 27-35: ordinal not in range(128))"
+      ],
+      "warnings": [],
+      "pass": false
+    },
+    {
+      "file": "reddit_draft.txt",
+      "platform": "reddit",
+      "char_count": 1774,
+      "issues": [],
+      "warnings": [],
+      "pass": true
+    },
+    {
+      "file": "x_draft.txt",
+      "platform": "x",
+      "char_count": 221,
+      "issues": [],
+      "warnings": [],
+      "pass": true
+    }
+  ]
+}

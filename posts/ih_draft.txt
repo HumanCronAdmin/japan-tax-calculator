@@ -1,0 +1,27 @@
+# IH Draft
+> Gemini | 2026-04-01 17:31
+
+Okay, here's an Indie Hackers post draft, written from the perspective of a transparent solo builder, focusing on the unique value of your Japan Tax Calculator.
+
+---
+
+## From Personal Pain to Public Tool: My Free Japan Tax Calculator (Showing Exact Take-Home Pay!)
+
+Hey Indie Hackers!
+
+I'm [Your Name/Handle], a solo builder, and I'm sharing a project I've been chipping away at: a **free Japan Tax Calculator** specifically designed to show foreigners their *exact take-home pay*.
+
+You can check it out here: 👉 **[https://humancronadmin.github.io/japan-tax-calculator/
+
+### The Problem I Faced (And Knew Others Did Too)
+
+When I first moved to Japan, I remember the excitement of a new job offer quickly turning into a mild panic. "What does this salary *actually* mean in my pocket?"
+
+Japan's tax system is... complete. You've got national income tax, residence tax (which has a peculiar lag for new residents), health insurance, pension contributions, employment insurance – it's a lot. Most salary calculators I found online were either:
+
+1.  **Paid:** Requiring a subscription for something I felt should be transparent.
+2.  **Too simplistic:** Only showing gross income tax, not the full picture of *all* deductions.
+3.  **Not foreigner-focused:** Missing nuances like the residence tax lag for the first year.
+4.  **Outdated or clunky:** Hard to use or gave questionable results.
+
+I just wanted to know: if my offer is X yen, how much will I *actually* see in my bank account each month? This wasn't just a "nice to have
