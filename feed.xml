@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Japan Tax Calculator</title>
+  <link href="https://humancronadmin.github.io/japan-tax-calculator/" rel="alternate"/>
+  <link href="https://humancronadmin.github.io/japan-tax-calculator/feed.xml" rel="self"/>
+  <id>https://humancronadmin.github.io/japan-tax-calculator/</id>
+  <updated>2026-04-10T04:03:51Z</updated>
+  <author><name>HumanCron</name></author>
+  <entry>
+    <title>Japan Tax Filing: A Foreigner's Practical Steps</title>
+    <link href="https://humancronadmin.github.io/japan-tax-calculator/articles/japan-tax-filing-foreigner-checklist.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/japan-tax-calculator/articles/japan-tax-filing-foreigner-checklist.html</id>
+    <updated>2026-04-10T04:03:51Z</updated>
+    <summary>Navigating Japanese taxes as a foreigner can be complex. This practical checklist covers income tax, resident tax, deductions, and common mistakes for a smooth filing.</summary>
+  </entry>
+  <entry>
+    <title>Japan Tax Filing Guide 2026</title>
+    <link href="https://humancronadmin.github.io/japan-tax-calculator/content-product/guide.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/japan-tax-calculator/content-product/guide.html</id>
+    <updated>2026-04-01T10:46:34Z</updated>
+    <summary>Japan Tax Filing Guide 2026</summary>
+  </entry>
+</feed>
