@@ -1,0 +1,12 @@
+# Notes DRAFT
+> glock | 2026-04-01 17:32
+
+I've been finding the tax calculations a pain in the ass lately, and I've been trying to figure out how to do my taxes.
+
+That's when I decided to create a tax calculation tool.
+
+The calculation tool I created is available at https://humancronadmin.github.io/japan-tax-calculator/. This tool allows you to calculate the amount of your taxes by entering your salary, age, place of residence, etc.
+
+After releasing the tool, I had friends and family try it out and they were impressed with the ease of use and accuracy of the tool, especially for those who have complex tax calculations, and I shared the tool on social media and had many people try it out. I also shared the tool on my sns and had many people try it out, many of whom gave me valuable feedback on how they felt about the tool and reported bugs.
+
+I feel that I have been able to help a lot of people by creating and releasing a tax calculation tool that allows anyone to easily and accurately calculate their taxes and gain financial peace of mind.

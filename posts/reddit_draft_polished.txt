@@ -1,0 +1,20 @@
+#REDDIT DRAFT
+> glock | 2026-04-01 17:31
+
+Title Useful tool for expatriates: free tax calculator for accurate take-home pay
+
+Dear Redditors,
+
+As someone who has lived in Japan for a while, I know how frustrating it can be to navigate the tax system as an expat. I recently stumbled across a great tool that I'd like to share with you.
+
+This free online calculator is truly a lifesaver for foreigners like us. Enter your income, deductions, and other pertinent information and it will show you your exact take-home pay. It's a great way to accurately calculate your monthly take-home pay.
+
+What I like about this tool is that it is designed specifically for foreigners living in Japan and takes into account all the nuances of the Japanese tax system, which can be confusing for us foreigners. The calculator is easy to use and the results are presented in a clear and simple manner.
+
+I have tried several other tax calculators in the past, but this one is the most accurate and easy to use. And the best part? It's completely free! There are no subscription fees, no ads, and it's a simple, clear, reliable tool so you can plan your finances with confidence.
+
+If you are stationed in Japan, I highly recommend checking out Japan Tax Calculator. It is a very useful tool and I am so glad I found it. https://humancronadmin.github.io/japan-tax-calculator/
+
+Have any of you used this tool before? What do you think? Share your experiences in the comments section below!
+
+Edit: We've already written an article on DEV.to featuring 13 different tax calculation services, but this tool deserves special praise for its unique value and accuracy.

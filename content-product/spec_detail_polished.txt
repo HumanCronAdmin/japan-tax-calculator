@@ -1,0 +1,53 @@
+# Japan Tax Return Guide 2026 - PDF Table of Contents Details
+
+## Part 1: Is a tax return required?
+Flowchart (YES/NO split to determine):
+- Only 1 company employee → No (completed by year-end adjustment)
+- Yes conditions: side job > 200,000 / 2 places of employment / annual income > 20 million / medical expenses > 100,000 / home 6 municipalities + / first year of mortgage / mid-year entry
+- Risk of not filing: 14.6% delinquent tax, 15-20% additional tax for not filing
+- Source NTA No. 12011
+
+## Part 2: What's Changed for 2026 (page 2)
+- Tax Reform Summary / Changes in Basic Deductions and Income Tax Credits
+- Source: National Tax Agency "Income Tax Reforms for 2026
+
+## Part 3: Step by Step (8 pages)
+3.1 Required documents: Withholding Tax Certificate / My Number / Deduction Certificate / Bank Account
+3.2 e-Tax registration: Minor card method vs. ID/password method (with screener)
+3.3 English explanation of each section of the tax return form (screenshot + arrows)
+3.4 Filing Method: e-Tax / Mailing / Tax Office
+3.5 Refund: e-Tax 3 weeks / paper 1-2 months, bank transfer or Japan Post
+
+## Part 4: Overlooked deductions (5 pages)
+4.1 Medical Expense Deduction - 100,000 yen rule / Self-Medication / Source: NTA No. 12008
+4.2 Furusato Tax - One-Stop Special Exception vs.
+4.3 iDeCo - Full Income Deduction / Dividing Point of Year-end Adjustment Filing vs.
+4.4 Deduction for life insurance premiums - 3 categories: general/nursing care/individual annuities / upper limits for new and old policies
+4.5 Deduction for earthquake insurance premiums
+4.6 Dependent Care Exemption - Overseas family members are also eligible (proof of remittance required) / 380,000 yen/person
+
+## Part 5: Case Studies (4 pages)
+- a: Company employee + 3 hometown municipalities + 150,000 for medical expenses → Stepwise calculation of refund amount
+- b: Company employee + 300,000 for side job (in excess of 200,000 rule) → Miscellaneous income tax return
+- c: Job change in the middle of the year (2 withholding tax certificates) → Combination method
+- d: Arrive in Japan in the middle of the year → Non-resident period prorated
+
+## Part 6: Common Mistakes (3 pages)
+6.1 Income vs. income - illustration
+6.2 How to Read Gensen Choshuhyo - English Label Overlay Explanatory Diagram
+6.3 e-Tax Errors - Card Unreadable / Recommended Browser / Electronic Certificate Expiration
+
+## Chapter 7 Leaving Japan (2 pages)
+7.1 Designation of a Tax Agent
+7.2 Lump-sum Withdrawal from Pension (20% withholding tax refund request)
+7.3 Processing unpaid inhabitant tax
+7.4 Pre-departure Checklist
+
+## Appendix A: Japanese-English Tax Terms (40 words)
+tax return = tax return / withholding tax = withholding tax certificate / income tax credit / inhabitant tax = inhabitant tax / year-end adjustment = year-end adjustment year-end adjustment / refund / delinquent tax = delinquent tax / blue tax return = blue tax return / tax office = tax office, etc.
+
+## Appendix B: Tax Calendar
+January: Receipt of Gensen Choshuhyo (Certificate of Withholding Tax) / 2/16-3/15: Filing of tax returns / March: Processing of refunds / June: Resident tax notices / November-December: Year-end adjustments / December: Furusato Deadline
+
+## Appendix C: Useful Links
+NTA English page / e-Tax / japan-tax-calculator / tax accountant search (freee, Zeiri4)
